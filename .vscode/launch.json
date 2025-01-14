@@ -1,0 +1,32 @@
+{
+  // Use IntelliSense para saber los atributos posibles.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos.
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "bot",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "pdf_ocr.py", //"${file}",
+      "console": "integratedTerminal", //internalConsole, integratedTerminal, externalTerminal
+      "justMyCode": true
+    },
+    {
+      "name": "fitz",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "fitz.py", //"${file}",
+      "console": "integratedTerminal", //internalConsole, integratedTerminal, externalTerminal
+      "justMyCode": true
+    },
+    {
+      "name": "easyocr",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "img_easy_ocr.py", //"${file}",
+      "console": "integratedTerminal", //internalConsole, integratedTerminal, externalTerminal
+      "justMyCode": true
+    }
+  ]
+}
